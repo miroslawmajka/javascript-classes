@@ -1,4 +1,4 @@
-'use strict';
+/* eslint-disable no-console */
 
 const parent = require('./parent-class');
 

@@ -6,7 +6,9 @@ const square = new Square(30);
 
 rectangle.showArea();
 square.showArea();
+
 rectangle.doParentMethodStuff();
 square.doParentMethodStuff();
+
 Rectangle.doStaticMethodStuff();
 Square.doStaticMethodStuff();
