@@ -49,6 +49,8 @@ module.exports = {
         "space-in-parens": ["error", "never"],
         "array-bracket-spacing": ["error", "never"],
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
-        "prefer-template": "error"
+        "prefer-template": "error",
+        "comma-spacing": [ "error", { "before": false, "after": true } ],
+        "space-before-blocks": ["error", { "functions": "always", "keywords": "always", "classes": "always" }]
     }
 };
